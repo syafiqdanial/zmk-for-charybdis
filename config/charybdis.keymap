@@ -18,9 +18,7 @@
     require-prior-idle-ms = <10>;
 };
 
-/ {
-    chosen { zmk,matrix_transform = &five_column_transform; };
-};
+/* The maker's Nano35 shield supplies its own 35-position matrix transform. */
 
 / {
     combos {
